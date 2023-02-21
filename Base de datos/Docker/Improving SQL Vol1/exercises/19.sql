@@ -1,0 +1,2 @@
+UPDATE PRODUCTS
+SET PRICE = (90*price)/100;

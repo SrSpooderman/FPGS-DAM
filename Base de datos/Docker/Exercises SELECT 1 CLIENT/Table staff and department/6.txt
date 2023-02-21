@@ -1,0 +1,14 @@
+Select sysdate from dual;
+This returns the current date
+Select to_char (sysdate, 'DD-MM-YYYY') from dual;
+This returns the current date in format day-month-year
+Select to_char (sysdate, 'YYDDD') from dual;
+This returns the current date in format the two first numbers of the year and the of day where the first is 0
+Select to_char (sysdate, 'Q') from dual;
+This returns the trimester we are.
+Select to_char (date_start, 'Joined in ' Ddsp ' of ' fmMonth ' of ' YYYY,' at ' HH: MI 'am ' ) joining from staff;
+This returns the data of date_start in staff with the format:
+ddsp = The day of week
+fmmonth = Month name complete
+yyyy = the year
+hh:mi = hour and minutes

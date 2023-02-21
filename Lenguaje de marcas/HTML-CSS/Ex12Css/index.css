@@ -1,0 +1,75 @@
+form {
+    background-color: rgb(234, 234, 11);
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin:auto;
+    padding: 10px 20px 30px 30px;
+}  
+
+input[type="text"] {
+    padding: 4px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 60%;
+    border: none;
+}
+input[type="text"]:hover{
+    background-color: #ebdfdf;
+}
+input[type="text"]:focus {
+    background-color: #ccc;
+    border: 1px solid black;
+}
+
+input[type="radio"] {
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 5px;
+    margin: 5px 5px 5px 0px;
+    width: 60%;
+    border: none;
+}
+select:hover{
+    background-color: #eee;
+}
+select:focus{
+    background-color: #cdcdcd;
+}
+
+input[type="submit"] {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+button[type="reset"] {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ccc;
+    color: #333;
+    cursor: pointer;
+}
+button[type="reset"]:hover {
+    background-color: #eee;
+}

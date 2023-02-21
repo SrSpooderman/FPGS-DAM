@@ -1,0 +1,1 @@
+INSERT INTO Products(Code,Name_pro,Price,Manufacturer) VALUES(11,'Loudspeakers',70,2);

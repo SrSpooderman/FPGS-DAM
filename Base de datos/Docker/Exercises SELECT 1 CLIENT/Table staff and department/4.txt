@@ -1,0 +1,2 @@
+first in departament table we have to make name a primary key and delete id.
+After in staff table in the constraint we have to change the id of departament table to the name

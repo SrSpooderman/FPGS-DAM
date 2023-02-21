@@ -1,0 +1,17 @@
+- 0998, Martínez, Analyst, 5700, 05, 0444
+The name and the job aren't between quotation marks so it can't be used 
+Cod_Dept don't exist
+Analyst has the first capital letter so it doesn't accept it
+- 1004, Mulet, driver, 7500, 10
+The name and the job aren't between quotation marks so it can't be used
+Driver isn't a job allowed in table.
+Cod_Dept can't be null
+- 1200, Muñoz, project manager, 2500, 10, 0413
+The name and the job aren't between quotation marks so it can't be used
+Salary is lower than constraint
+- 1110, Ortiz, programmer, 4000, 06, 1008
+The name and the job aren't between quotation marks so it can't be used
+Cod_DEPT don't exist
+
+Also the default sup_code is 0 and there is not row with 0 of cod_emp
+There is a great advantage using constraints makes it easier to enter data so that it is more specific to our needs.

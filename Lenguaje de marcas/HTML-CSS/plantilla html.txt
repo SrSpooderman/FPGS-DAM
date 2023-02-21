@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href=""> <!--El icono de la pagina web-->
+        <link rel="stylesheet" type="text/css" href=""> <!--La hoja de estilo de la web-->
+        <title></title> <!--Titulo superior de la pagina-->
+    </head>
+    <body>
+        <header>
+
+        </header>
+
+        <main>
+
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+Select to_char (date_start, 'HH:MI DD MM YYYY') joining from staff;

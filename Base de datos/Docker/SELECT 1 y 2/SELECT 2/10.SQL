@@ -1,0 +1,9 @@
+WITH Company_avg AS (
+    SELECT AVG(SALARY) AS Total_Salary_AVG
+    FROM XSTAFF
+)
+SELECT job, AVG(SALARY) as Salary_AVG
+FROM XSTAFF
+WHERE SALARY > (SELECT Total_Salary_AVG FROM Company_avg)
+GROUP BY JOB
+;

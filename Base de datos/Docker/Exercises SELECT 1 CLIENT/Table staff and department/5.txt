@@ -1,0 +1,9 @@
+Select * from staff;
+It select all data from staff
+Create synonym for personal p;
+Here we create other name for a object like a table in this case we add the name p to personal table
+Select * from p;
+Here we select all data from p that is a synonym of personal table. So we select all data from personal table.
+Drop SYNONYM p;
+We drop the use of p to refer us personal table
+

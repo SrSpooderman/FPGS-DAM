@@ -1,0 +1,2 @@
+I would make a query where I extract the count of club_id that I have in the clubs table.
+The same but adding a where not foundation = null

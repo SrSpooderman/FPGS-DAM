@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href=""> <!--El icono de la pagina web-->
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Potente</title>
+    </head>
+    <body>
+        <form method="post" action="">
+            <h1>Formulario epico</h1>
+            <div class="nombre">
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="yo que se, tu nombre" required><br>
+            </div>
+            <div class="asignatura">
+                Asignatura favorita <br>
+                <input type="radio" id="programacion" name="fclass2" value="programacion" required>
+                <label for="programacion">Programacion</label><br>
+                <input type="radio" id="database" name="fclass2" value="database">
+                <label for="database">Base de datos</label><br>
+                <input type="radio" id="marcas" name="fclass2" value="marcas">
+                <label for="marcas">Lenguaje de marcas</label><br>
+                <input type="radio" id="sistemas" name="fclass2" value="sistemas">
+                <label for="sistemas">Sistemas informaticos</label><br>
+            </div>
+            <div class="checkbox">
+                Si o no <br>
+                <input type="checkbox" id="fsi" name="fsi" value="Si" required>
+                <label for="fsi">Efectivamente</label><br>
+            </div>
+            <div class="multi">
+                <label for="fmulti">Elige algo</label><br>
+                <select id="fmulti" name="multi" required>
+                    <option value="si">si</option>
+                    <option value="no">no</option>
+                    <option vae="depende">depende</option>
+                    <option value="que?">que clase de preguntas son estas, no tiene sentido</option>
+                </select>
+            </div>
+            <div class="archivo">
+                <label for="ffile">Dame un rachivo, asi robado</label><br>
+                <input type="file" id="ffile" name="ffile" required>
+            </div>
+            
+            <input type="submit" value="Envia el coso" id="fsubmit" name="fsubmit">
+
+            <button type="reset">InicioDefault</button>
+        </form>
+    </body>
+</html>
