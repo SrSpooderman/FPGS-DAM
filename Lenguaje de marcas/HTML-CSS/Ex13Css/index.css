@@ -1,3 +1,8 @@
-table{border:1px solid black; border-collapse: collapse;}
-td{border: 1px solid black;}
-td:nth-child(odd){color: rgb(27,27,86);}td:nth-child(even){color: rgb(27,27,96);}
+*{font-size: large;}
+
+table{border:1px solid black; border-collapse: collapse;}
+
+td{border: 1px solid black;}
+
+tr:nth-child(odd){color: rgb(27,27,234);}
+tr:nth-child(even){color: rgb(27,27,102);}

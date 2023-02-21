@@ -41,26 +41,24 @@ elif orden in ["Descendente","descendente","d"]:
 archivo.write("<!DOCTYPE html>"+os.linesep)
 archivo.write('<link rel="stylesheet" type="text/css" href="index.css">'+os.linesep)
 archivo.write("<body>"+os.linesep+"<table>"+os.linesep)
-#crear teblas nombre
-archivo.write("<tr>"+os.linesep)
-for nombre in nombres:
-    archivo.write("<td>"+nombre+"</td>"+os.linesep)
-archivo.write("</tr>"+os.linesep)
-#crear tablas puntuacion
-archivo.write("<tr>"+os.linesep)
-for puntos in puntuacion:
-    archivo.write("<td>"+str(puntos)+"</td>"+os.linesep)
-archivo.write("</tr>"+os.linesep)
+#Crear tabla
+for posicion in range(0, len(nombres)):
+    archivo.write("<tr>"+os.linesep)
+    archivo.write("<td>"+str(posicion+1)+"</td>"+os.linesep)
+    archivo.write("<td>"+nombres[posicion]+"</td>"+os.linesep)
+    archivo.write("<td>"+str(puntuacion[posicion])+"</td>"+os.linesep)
+    archivo.write("</tr>"+os.linesep)
 
 archivo.write("<table>"+os.linesep+"</body>"+os.linesep+"</html>")
 
 #crear css
+estilo.write("*{font-size: large;}"+os.linesep)
 estilo.write("table{"+"border:1px solid black; border-collapse: collapse;}"+os.linesep+"td{border: 1px solid black;"+"}"+os.linesep)
-num = str(random.randint(50,255))
-num2 = str(random.randint(50,255))
+num = str(random.randint(200,255))
+num2 = str(random.randint(100,110))
 if color in ["Rojo","rojo"]:
-    estilo.write("td:nth-child(odd){"+"color: rgb("+num+"27,27);}")
-    estilo.write("td:nth-child(even){"+"color: rgb("+num2+"27,27);}")
+    estilo.write("tr:nth-child(odd){"+"color: rgb("+num+",27,27);}")
+    estilo.write("tr:nth-child(even){"+"color: rgb("+num2+",27,27);}")
 elif color in ["Azul","azul"]:
-    estilo.write("td:nth-child(odd){"+"color: rgb(27,27,"+num+");}")
-    estilo.write("td:nth-child(even){"+"color: rgb(27,27,"+num2+");}")
+    estilo.write("tr:nth-child(odd){"+"color: rgb(27,27,"+num+");}")
+    estilo.write("tr:nth-child(even){"+"color: rgb(27,27,"+num2+");}")
