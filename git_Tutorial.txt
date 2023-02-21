@@ -1,0 +1,6 @@
+git init
+git add -A
+git commit -m "comentario"
+git branch -M main
+git remote add origin "URL.git"
+git push -u origin main
