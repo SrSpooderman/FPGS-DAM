@@ -9,7 +9,6 @@ CREATE TABLE Customers(
     Pucharses INTEGER,
     CONSTRAINT province_FK FOREIGN KEY (Province_code) REFERENCES Provinces (Code)
 );
-/
 CREATE TABLE Purchases(
     Purchase_ID NUMBER(10) Primary key,
     Client NUMBER(10),
